@@ -14,7 +14,7 @@ body{
     line-height: 17px; 
     width: 1350px; 
     margin: 0; 
-    background: beige;
+    background: blue;
 }
 
 #page{ margin: 20px; }
@@ -32,6 +32,7 @@ body{
 	display: inline-block;
 	text-align: right;
 	float: right;
+        
 }
 	#nav ul{}
 		#nav ul li{
@@ -41,13 +42,15 @@ body{
 			#nav ul li a{
 				padding: 18px;
 				background: #f0f7fd;
-				color: gray;
+				color: black;
                                 font-weight: bold;
                                 text-transform: uppercase;
                                 font-size: 11.5px;
+                                
 			}
 			#nav ul li a:hover{
 				background-color: blue;
+                                
 				
 			}
 	#nav ul li a:active{ background-color: #ff8f00; }
@@ -55,7 +58,7 @@ body{
         
 
 #img{
-    background-image: url('trucks.jpg');
+    background-image: url('images/trucks.jpg');
     width: 950px;
     height: 375px;
 }
@@ -63,7 +66,7 @@ body{
 #img>pre{
     font-weight: bold;
     font-style: italic;
-    color: grey;
+    color: black;
     font-size: 30px;
     position: relative;
     top: 120px;
@@ -75,16 +78,17 @@ body{
 	background: #f0f7fd;
 	padding: 20px;
 	clear: both;
+        
 }
 
 #content>p{
-    color:gray;
+    color:black;
 }
 
 #content>h3{
     font-size: 17px;
-    color: black;
-    background-color: gray;
+    color: white;
+    background-color: blue;
     border-radius: 10px;
     padding: 0px 50px;
     text-align:center;
@@ -92,21 +96,23 @@ body{
     
 }
 #content>ul>li{
-    color:gray;
+    color:black;
 }
 
 #img1{
-    background-image: url('aboutus.jpg');
+    background-image: url('images/aboutus.jpg');
     width: 320px;
     height: 200px;
     
 }
 #img1>p{
     font-style: italic;
-    color: grey;
+    color: black;
     font-size: 17px;
     position: relative;
-    left: 420px;
+    left: 350px;
+    top:1px;
+    width: 870px;
 }
 
 #content1{
@@ -118,13 +124,13 @@ body{
 }
 
 #content1>p{
-    color:gray; 
+    color:black; 
 }
 
 #content1>h3{
     font-size: 17px;
-    color: black;
-    background-color: gray;
+    color: white;
+    background-color: blue;
     border-radius: 10px;
     padding: 0px 50px;
     text-align:center;
@@ -132,7 +138,32 @@ body{
     
 }
 #content1>ul>li{
-    color:gray;
+    color:black;
+}
+
+#img2{
+    background-image: url('images/towing.jpg');
+    width: 400px;
+    height: 300px;
+    margin-left: 30px;
+    margin-top:-300px;
+        
+}
+#imga{
+    background-image: url('images/towing1.jpg');
+    width: 920px;
+    height: 385px;
+    position:absolute;
+    top:600px;
+    left:210px;     
+}
+
+#imgb{
+    background-image: url('images/towing2.jpg');
+    width: 400px;
+    height: 290px;
+    margin-left:870px;
+    margin-top:-310px;
 }
 
 #content2{
@@ -140,23 +171,23 @@ body{
 	background: #f0f7fd;
 	padding: 20px;
 	clear: both;
+        height:830px;
 }
 #content2>p{
-    color:gray;
-}
-
-#content2>h3{
-    font-size: 17px;
-    color: black;
-    background-color: gray;
-    border-radius: 10px;
-    padding: 0px 50px;
+    color:black;
+    width:400px;
     text-align:center;
-    text-transform: uppercase;
+    margin-left:450px;
     
 }
-#content2>ul>li{
-    color:gray;
+
+#img3{
+    background-image: url('images/workshop.jpg');
+    width: 950px;
+    height: 380px;
+    margin-left: 170px;
+    margin-top:-15px;
+        
 }
 
 #content3{
@@ -166,67 +197,37 @@ body{
 	clear: both;
 }
 #content3>p{
-    color:gray;
-}
-
-#content3>h3{
-    font-size: 17px;
-    color: black;
-    background-color: gray;
-    border-radius: 10px;
-    padding: 0px 50px;
-    text-align:center;
-    text-transform: uppercase;
-    
-}
-#content3>ul>li{
-    color:gray;
+    color:black;
 }
 
 #img4{
-    background-image: url('map.png');
+    background-image: url('images/map.png');
     width: 357px;
     height: 210px;
-    
+    position:absolute;
+    top:490px;
+    right:950px;
+    border: solid grey 3px;
+    border-radius: 20px;  
 }
 
-#img4>pre{
-    font-weight: bold;
-    font-style: italic;
-    color: grey;
-    font-size: 30px;
-    position: relative;
-    top: 75px;
-    left: 500px;
-}
 #content4{
 	margin: 30px 0;
 	background: #f0f7fd;
 	padding: 20px;
 	clear: both;
+        height:565px;
 }
 #content4>p{
-    color:gray;
-    border: solid white 5px;
-    border-radius: 10px;
-    padding: 10px 430px 2px;
-    margin: 0px 100px 10px;
-    background-color: beige;
-}
-
-#content4>h3{
-    font-size: 17px;
-    color: black;
-    background-color: gray;
-    border-radius: 10px;
-    padding: 0px 50px;
-    text-align:center;
-    text-transform: uppercase;
+    color:black;
+    font-style: italic;
+    text-align:left;
+    font-size:20px;
+    margin-bottom:100px;
     
 }
-#content4>ul>li{
-    color:gray;
-}
+
+
 #footer{
 	border-bottom: 1px solid;
 	margin-bottom: 10px;
@@ -235,7 +236,7 @@ body{
 		text-align: right;
 		text-transform: uppercase;
 		font-size: 10px;
-		color: blue;
+		color: white;
 	}
 
 
@@ -256,9 +257,9 @@ body{
 
 .word{
     display: inline-block;
-    border: solid white 3.5px;
+    border: solid blue 3.5px;
     border-radius: 20px;
-    background-color: beige;
+    background-color: #f0f7fd;
     padding: 20px 50px 10px;
     margin: 0px 67px 10px;
 }

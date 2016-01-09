@@ -3,6 +3,17 @@
     <head>
         <title>Find</title>
        <link rel="stylesheet" href="style.css"/>
+       <meta charset="UTF-8">
+        <script src="jquery-2.1.3.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(":text:empty").not(":disabled")
+                        .css("background-color","yellow");
+                $(":password").css("background-color","orange");
+                $(":disabled").css("background-color","purple");
+                $(":submit").css("background-color","blue");
+            });
+        </script>
     <body>
         <div id="page">
             <div id="logo">
@@ -21,6 +32,7 @@
                    
 		</div>
         <div id="content4">
+           
 			<h2>Find</h2>
       <p><b>Nahr el Mot - Roumieh Main Road 
           <br><br>
@@ -38,7 +50,13 @@
         <br><br>
         Email: info@fast-sal.com</b>
             </p>
-        
+            <div id="content5">
+            <h1>Get in touch</h1>
+             <p>Name<input type="text"/></p>
+             <br><p>E-mail<input type="password"/></p>
+             <br><p>Phone<input type="text" disabled/></p>
+        <input type="submit" value="Submit"/>
+        </div>
             <div id="img4">
          
             </div>

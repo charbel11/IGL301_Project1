@@ -53,24 +53,18 @@ body{
                                 
 				
 			}
-	#nav ul li a:active{ background-color: #ff8f00; }
+	#nav ul li a:active{ background-color: #f0f7fd; }
         
         
-
-#img{
-    background-image: url('images/trucks.jpg');
-    width: 950px;
-    height: 375px;
-}
 
 #img>pre{
     font-weight: bold;
     font-style: italic;
     color: black;
-    font-size: 30px;
+    font-size: 40px;
     position: relative;
-    top: 120px;
-    left: 1000px;
+    top: -250px;
+    left: 800px;
 }
 
 #content{
@@ -226,7 +220,20 @@ body{
     margin-bottom:100px;
     
 }
-
+#content5>h1{
+    color:black;
+    position:absolute;
+    right:550px;
+    top:180px;   
+}
+#content5>p{
+    color:black;
+    position:absolute;
+    right:500px;
+    top:250px;
+    
+    
+}
 
 #footer{
 	border-bottom: 1px solid;
@@ -244,7 +251,7 @@ body{
 .wordname{
     color: blue;
     text-decoration: none;
-    background-color: white;
+    background-color: silver;
     border-radius: 10px;
     padding: 0px 50px;
     text-transform: uppercase;
